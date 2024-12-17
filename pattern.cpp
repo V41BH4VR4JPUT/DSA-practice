@@ -19,12 +19,26 @@ int main(){
         
     // }
     // pattern 2
-    int i =0;
+    // int i =0;
      
-    while(i<n){
-        int j = 0;
-        while(j<n){
-            cout<<"*";
+    // while(i<n){
+    //     int j = 0;
+    //     while(j<n){
+    //         cout<<"*";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+        
+        
+    // }
+    // pattern 3
+    int i =1;
+     
+    while(i<=n){
+        int j = i;
+        while(j<=n){
+            cout<<i<<" ";
             j++;
         }
         cout<<endl;
@@ -32,6 +46,5 @@ int main(){
         
         
     }
-    
     return 0;
 }
