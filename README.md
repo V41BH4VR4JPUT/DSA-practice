@@ -1,2 +1,3 @@
 # DSA-practice
-Practice codes of DSA and some Leetcode problems
+Some patterns practise
+Practise codes of DSA and some Leetcode problems
