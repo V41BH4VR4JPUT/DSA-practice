@@ -1,3 +1,1 @@
-# DSA-practice
-Some patterns practise
-Practise codes of DSA and some Leetcode problems
+# 30 Pattern Practise Questions 
