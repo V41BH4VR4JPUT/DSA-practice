@@ -224,7 +224,7 @@ int main(){
     // Number printing
     int col = 1;
     while(col<=row){
-        cout<<start<<" ";
+        cout<<start;
         start++;
         col++;
 
