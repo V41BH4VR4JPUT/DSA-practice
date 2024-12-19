@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-    int main(){
+int main(){
         int n;
         cin >> n;
 
@@ -16,5 +16,8 @@ using namespace std;
         }else{
             cout << "Not Prime";
         }
+
+        
+        
         return 0;
     }
