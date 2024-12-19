@@ -70,13 +70,6 @@ int main(){
     cout<<value;
     value--;
   }
-
-
-
-
-
-
-
    cout<<endl;
    row++;
   }
