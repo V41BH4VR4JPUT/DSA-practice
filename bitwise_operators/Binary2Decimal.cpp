@@ -19,6 +19,7 @@ int main(){
     // cout<<"Decimal Number is : "<<sum<<endl;
 
     // optimized code Time Complexity : 0(n)
+    // removal of pow function change the time complexity from O(logn) to O(n)
 
     int m;
     cout<<"Enter the Binary Number : ";
