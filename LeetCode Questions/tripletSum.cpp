@@ -1,4 +1,4 @@
-// brute force
+// brute force approach to find the triplet sum in an array
 
 #include<bits/stdc++.h>
 using namespace std;
