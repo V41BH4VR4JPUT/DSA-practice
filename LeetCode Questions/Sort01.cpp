@@ -13,21 +13,24 @@ void SortedArray(int arr[] , int n){
     
     while(left <= right){
         
-        while(arr[left] == 0){
+        while(arr[left] == 0 && left <= right){
             left++;
         }
-        while(arr[right] == 1){
+        while(arr[right] == 1 && left <= right){
             right--;
         }
+        if(left <= right){
+
         swap(arr[left] , arr[right]);
         left++;
         right--;
+        }
     }
 }
 int main(){
-    int arr[5] = {0,1,0,1,1};
-    printArray(arr , 5);
-    SortedArray(arr , 5);
-    printArray(arr , 5);
+    int arr[8] = {0,1,0,1,1, 1, 0, 0};
+    printArray(arr , 8);
+    SortedArray(arr , 8);
+    printArray(arr , 8);
      return 0;
 }
