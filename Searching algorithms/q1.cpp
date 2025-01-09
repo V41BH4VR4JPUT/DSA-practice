@@ -44,5 +44,7 @@ int main(){
     int target = 1;
     
     cout<<"the first occurrence at index is: "<<firstOccurrence(arr , 6 , target)<<endl;
-    cout<<"the last occurrence at index is: "<<lastOccurrence(arr , 6 , target);
+    cout<<"the last occurrence at index is: "<<lastOccurrence(arr , 6 , target)<<endl;
+    int result = lastOccurrence(arr , 6 , target) - firstOccurrence(arr , 6 , target) + 1;
+    cout<<"number of occurence of element : "<<result<<endl;
 }
