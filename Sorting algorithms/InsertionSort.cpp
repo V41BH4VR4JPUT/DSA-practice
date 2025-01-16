@@ -1,33 +1,20 @@
-// Insertion sort
+// insertion sort
 
 #include <bits/stdc++.h>
 using namespace std;
-
-void insertionSort(int arr[], int n)
-{
-    for (int i = 0; i<n-1 ; i++){
-        int minIndex = i;
-        for(int j = i + 1; j < n; j++){
-            if(arr[j] < arr[minIndex]){
-                minIndex = j;
-            }
+int main(){
+    int arr[5] = {5, 2, 4, 6, 1};
+    for(int i = 1; i < 5; i++){
+        int current = arr[i];
+        int j = i-1;
+        while(arr[j] > current && j >= 0){
+            arr[j+1] = arr[j];
+            j--;
         }
-        swap(arr[minIndex] , arr[i]);
-
+        arr[j+1] = current;
     }
+    for(int i = 0; i < 5; i++){
+        cout<<arr[i]<<" ";
+    }
+    return 0;
 }
-
-int main()
-{
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    cout<<"\nBefore sorting"<<endl;
-    for(int i = 0; i < 7; i++){
-        cout<<arr[i]<<" ";
-    }
-    int n = sizeof(arr)/sizeof(arr[0]);
-    insertionSort(arr, n);
-    cout<<"\nAfter sorting"<<endl;
-    for(int i = 0; i < n; i++){
-        cout<<arr[i]<<" ";
-    }
-}    
