@@ -15,15 +15,16 @@ public:
         {
             if (i >= 0)
             {
-                carry += a[i] - '0';
-                i--;
+                carry += a[i--] - '0';
+                
             }
             if (j >= 0)
             {
-                carry += b[j] - '0';
-                j--;
+                carry += b[j--] - '0';
+                
             }
-            ans += to_string(carry % 2);
+            ans += carry % 2 + '0';
+            carry /= 2;
         }
         reverse(ans.begin(), ans.end());
         return ans;
