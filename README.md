@@ -1,6 +1,4 @@
-Practise Codes :
-<br>
-Pattern Practise
+Practise Codes for DSA
 <br>
 Leetcode Questions
-Other C++ topics Practise
+
