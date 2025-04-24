@@ -1,4 +1,5 @@
 // printing max and min value from the array
+
 #include<bits/stdc++.h> 
 using namespace std;
 int printMin(int arr[], int n){
