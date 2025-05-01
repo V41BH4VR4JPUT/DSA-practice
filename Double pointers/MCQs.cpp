@@ -1,5 +1,4 @@
 // MCQs for pointers 
-
 #include <bits/stdc++.h>
 using namespace std;
 

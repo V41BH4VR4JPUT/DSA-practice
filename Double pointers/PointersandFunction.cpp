@@ -1,5 +1,4 @@
 // double pointers and functions 
-
 #include <bits/stdc++.h>
 using namespace std;
 
