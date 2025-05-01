@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 #include <algorithm>
 using namespace std;
-
 int main(){
     vector<int> v={1,2,3,4,5};
     for (auto i : v) cout<<i<<" ";
@@ -29,5 +28,4 @@ int main(){
     sort(v.begin(),v.end());
     for(auto i : v) cout<<i<<" ";
     cout<<endl;
-
 }
