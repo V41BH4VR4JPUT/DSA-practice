@@ -25,6 +25,11 @@ int main(){
             cout << arr[i][j] << " ";
         }cout<<endl;
     }
+    // deallocating the memory
+    for(int i = 0; i < rows; i++){
+        delete[] arr[i]; // deleting the array of size n for each pointer
+    }
+    delete[] arr; // deleting the array of pointers
     return 0;
 
 }
