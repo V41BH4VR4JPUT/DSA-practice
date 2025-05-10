@@ -5,23 +5,23 @@ using namespace std;
 
 int main(){
     // creating a 2D array of size m*n
-    int n ;
-    cin >> n;
+    int rows, cols;
+    cin >> rows >> cols;
 
-    int **arr = new int*[n]; // creating an array of pointers
-    for(int i = 0; i < n; i++){
-        arr[i] = new int[n]; // creating an array of size n for each pointer
+    int **arr = new int*[rows]; // creating an array of pointers
+    for(int i = 0; i < rows; i++){
+        arr[i] = new int[cols]; // creating an array of size n for each pointer
     }
 
     // taking input for the 2D array
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
+    for(int i = 0; i < rows; i++){
+        for(int j = 0; j < cols; j++){
             cin >> arr[i][j];
         }
     }cout<<endl;
     // printing the 2D array
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
+    for(int i = 0; i < rows; i++){
+        for(int j = 0; j < cols; j++){
             cout << arr[i][j] << " ";
         }cout<<endl;
     }
