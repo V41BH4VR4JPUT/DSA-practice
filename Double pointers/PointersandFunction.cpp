@@ -1,7 +1,6 @@
 // double pointers and functions 
 #include <bits/stdc++.h>
 using namespace std;
-
 void fun(int **p)
 {
     **p = **p + 1; // changes the value of i
