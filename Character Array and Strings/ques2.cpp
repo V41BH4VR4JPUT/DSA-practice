@@ -1,5 +1,4 @@
 // find the length of string
-
 #include<bits/stdc++.h>
 using namespace std;
 int LengthOFstring(char name[]){
